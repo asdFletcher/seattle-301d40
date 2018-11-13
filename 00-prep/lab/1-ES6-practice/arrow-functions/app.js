@@ -163,7 +163,7 @@ console.log(message('Allie'));
 
 
 
-let Student = function(name, age, hometown) {
+let Student = (name, age, hometown) => {
   this.name = name;
   this.age = age;
   this.hometown = hometown;
@@ -177,7 +177,10 @@ let joe = new Student('Joe', 'Schmoe', 100);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this code to break!
+<<<<<<< HEAD
 // Not even sure about syntax since arrow notation isn't supposed to be used here...
+=======
+>>>>>>> f5febb96838c5172c50c8d4bb7f094c0a475d46e
 console.log(joe);
 
 
